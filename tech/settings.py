@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-    'rest_framework',
     'api',
 ]
 
@@ -80,11 +79,11 @@ WSGI_APPLICATION = 'tech.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'rest_api',
+        'NAME': 'tech_interview',
         'USER': 'postgresql',
         'PASSWORD': '1234',
         'HOST': '127.0.0.1',
-        'PORT': '8000',
+        'PORT': '5432',
     }
 }
 
